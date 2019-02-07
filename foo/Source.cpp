@@ -5,24 +5,28 @@ using namespace std;
 class Base
 {
 public:
-	void function1() {
+	void function1() 
+	{
 		cout << "Base Function1" << endl;
 	}
-	void function2() {
+	void function2() 
+	{
 		cout << "Base Function2" << endl;
 	}
 };
 class D1 : public Base
 {
 public:
-	virtual void function1() {
+	virtual void function1() 
+	{
 		cout << "D1 Function1" << endl;
 	}
 };
 class D2 : public Base 
 {
 public:
-	void function2() {
+	void function2() 
+	{
 		cout << "D2 Function2" << endl;
 	}
 };
